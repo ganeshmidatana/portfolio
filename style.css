@@ -436,6 +436,26 @@ footer {
     .info {
         font-size: 12px;
     }
+    .matter h1 {
+        font-size: 28px;
+    }
+    .itsupport{
+        font-size: 1.2rem;
+    }
+    .education {
+        font-size: 2.3rem;
+    }
+    .certificate .btech {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .candt {
+        font-size: 1.6rem;
+        line-height: 40px;
+    }
+    .project {
+        font-size: 1.6rem;
+    }
 }
 @media only screen and ( max-width: 518px){
     .candt {
@@ -460,12 +480,6 @@ footer {
     }
 }  
 
-@media only screen and ( max-width: 448px){
-    .certificate .btech {
-    font-size: 18px;
-    line-height: 30px;
-    }
-}  
 @media only screen and ( max-width: 470px){
     .matter h1 {
         font-size: 1.8rem;
@@ -482,7 +496,7 @@ footer {
     }
 }
 @media only screen and ( max-width: 410px){
-    .certificate .btech {
+    .education .btech {
         font-size: 17px;
         line-height: 25px;
     }
@@ -514,9 +528,9 @@ footer {
     .education {
         font-size: 2.3rem;
     }
-    .btech {
-        line-height: 20px;
-        font-size: 1rem;
+    .certificate .btech {
+        font-size: 15px;
+        line-height: 25px;
     }
     .candt {
         font-size: 1.6rem;
@@ -524,6 +538,10 @@ footer {
     }
     .project {
         font-size: 1.6rem;
+    }
+    .education-section .btech {
+        font-size: 15px;
+        line-height: 30px;
     }
 }       
 @media only screen and ( max-width: 490px){
