@@ -459,6 +459,9 @@ footer {
     .info {
     font-size: 0.7rem;
     }
+    .candt {
+    font-size: 1.8rem;
+    }
 }
 @media only screen and ( max-width: 518px){
     .candt {
