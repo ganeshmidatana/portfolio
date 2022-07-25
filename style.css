@@ -480,7 +480,30 @@ footer {
         font-size:0.95rem;
         padding: 6px;
     }
-}   
+}
+@media only screen and ( max-width: 410px){
+    .certificate .btech {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .candt {
+        font-size: 1.8rem;
+    }
+    .info {
+        font-size: 13px;
+    } 
+    .info {
+        font-size: 13px;
+    }  
+    .education-section .btech {
+        font-size: 1.1rem;
+        line-height: 30px;
+    }
+    .project {
+        font-size: 2rem;
+    }
+}
+
 @media only screen and ( max-width: 380px){
     .matter h1 {
         font-size: 28px;
