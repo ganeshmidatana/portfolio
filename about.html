@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            min-height: 100%;
+        }
+
+        body {
+            background-image: linear-gradient(112.1deg, rgba(32, 38, 57, 1) 11.4%, rgba(63, 76, 119, 1) 70.2%);
+            height: 100%;
+
+            font-family: 'kanit';
+        }
+
+        h1 {
+            font-size: 65px;
+            color: #9da2af;
+            margin-left: 125px;
+        }
+
+        .matter {
+            color: #DBEDF3;
+            margin-left: 125px;
+            font-size: 24px;
+            width: 70%;
+        }
+
+        .skills {
+            display: flex;
+            margin-left: 125px;
+        }
+
+        img {
+            height: 70px;
+        }
+
+        h3 {
+            color: #DBEDF3;
+            font-size: 20px;
+            margin-right: 50px;
+        }
+
+        .yt {
+            margin-left: 125px;
+            margin-top: 100px;
+        }
+
+        .sss {
+            margin-left: 0;
+        }
+
+        .skills-h {
+            margin-top: 100px;
+
+        }
+
+        iframe {
+            margin-right: 70px;
+        }
+
+        .navbar ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+
+        ul li {
+            display: inline-block;
+            padding: 5px;
+        }
+
+        li a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-family: 'kanit';
+            font-size: 1.4rem;
+            padding: 50px;
+            padding-bottom: 15px;
+            padding-top: 30px;
+        }
+
+        li a:hover {
+            color: black;
+        }
+
+        li:hover {
+            background-color: #9da2af;
+            color: black;
+            border-style: solid;
+            border-radius: 23px;
+            border: none;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+            transform: scale(1.2);
+        }
+
+        a:active {
+            opacity: 0.8;
+        }
+    </style>
+
+    <script>
+        function viewresume() {
+            window.open("ganesh-resume.pdf");
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-items">
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li onclick="viewresume()"><a href="#">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <h1>About</h1>
+    <p class="matter">An entry-level IT professional
+        seeking a full-time role in Information Technology. <br>
+        Completed the Google IT Support Professional Certificate
+        developed by Google from Coursera.</p>
+
+    <p class="matter">I am a student at Andhra University College Of Engineering
+        pursuing a B.Tech in Electronics & Communication Engineering,
+        I also completed a B.Sc degree in Computers from the School Of Distance Education, Andhra University. </p>
+
+    <h1 class="skills-h">Skills</h1>
+
+    <div class="skills">
+        <img src="html.webp">
+        <h3>HTML</h3>
+
+        <img src="css.webp">
+        <h3>CSS</h3>
+
+        <img src="java-script.webp">
+        <h3>JavaScript</h3>
+
+        <img src="python.webp">
+        <h3>Python</h3>
+
+        <img src="blockchain.webp">
+        <h3>Blockchain</h3>
+
+    </div>
+
+    <div class="yt">
+        <h1 class="sss">YouTube Channel</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/153GfPQWBDI" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1KW_nhxKb-c" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+
+
+</body>
+
+</html>
