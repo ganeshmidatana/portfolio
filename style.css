@@ -13,7 +13,7 @@ body {
 .ganesh {
     font-family: 'kanit';
     font-size: 3rem;
-    color: #fff;
+    color: #767b8a;
     margin-top: 210px;
     display: inline-block;
 }
@@ -89,13 +89,9 @@ a:active {
 }
 
 .education {
-    /* display: flex;
-    justify-content: flex-start; */
-    /* margin-left: 165px; */
     font-family: 'kanit';
     font-size: 3.5rem;
-    /* margin-top: 310px; */
-    color: #404B69;
+    color: #767b8a;
 }
 
 
@@ -106,7 +102,7 @@ a:active {
 
     font-family: 'kanit';
     font-size: 3.5rem;
-    color: #404B69;
+    color: #767b8a;
 }
 
 .btech {
@@ -147,7 +143,7 @@ a:active {
     font-family: 'kanit';
     font-size: 3.5rem;
     margin-top: 100px;
-    color: #404B69;
+    color: #767b8a;
 }
 
 .projects-container {
@@ -160,7 +156,7 @@ a:active {
     padding: 6px 12px;
 
     margin-top: 5px;
-    background-color: #404B69;
+    background-color: #767b8a;
     color: white;
     font-family: 'kanit';
     font-size: 1.1rem;
